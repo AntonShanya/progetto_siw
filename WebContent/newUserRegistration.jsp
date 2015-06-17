@@ -10,7 +10,7 @@
 <title>Registrazione Utente</title>
 </head>
 <body
-	style="font-family: georgia; margin-top: 30px; margin-left: 40px; margin-right: 40px" >
+	style="font-family: georgia; margin-top: 30px; margin-left: 40px; margin-right: 40px">
 	<f:view>
 		<h:form>
 			<table>

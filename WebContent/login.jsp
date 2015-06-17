@@ -9,7 +9,7 @@
 <link href="bootstrap.css" rel="stylesheet" type="text/css"></link>
 <title>Login Utente</title>
 </head>
-<body style = "font-family:georgia; margin-top:60px">
+<body style="font-family: georgia; margin-top: 60px">
 
 	<f:view>
 		<div class="container">
@@ -35,10 +35,10 @@
 						</tr>
 						<tr>
 							<td class="col-sm-3">Password</td>
-							<td><h:inputSecret value="  #{userController.password}"
+							<td><h:inputSecret value="#{userController.password}"
 									styleClass="form-control" required="true"
 									requiredMessage="Password obbligatoria! " id="password" /></td>
-							<td><h:message  style="color: Red"  for="password" /></td>
+							<td><h:message style="color: Red" for="password" /></td>
 						</tr>
 					</table>
 					<br>

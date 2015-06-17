@@ -20,6 +20,7 @@
 					<th>Nome</th>
 					<th>Telefono</th>
 					<th>Email</th>
+					<th></th>
 				</tr>
 				<c:forEach var="provider" items="#{productController.providers}">
 					<tr>
